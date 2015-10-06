@@ -67,13 +67,10 @@ public class ChatClient : IPhotonPeerListener
 
     public void OnStatusChanged(StatusCode statusCode)
     {
+        Console.WriteLine("Status: " + statusCode);
         if (statusCode == StatusCode.Connect)
         {
             this.connected = true;
-        }
-        else
-        {
-            Console.WriteLine("Status: " + statusCode);
         }
     }
 }
