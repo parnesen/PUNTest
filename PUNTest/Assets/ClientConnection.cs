@@ -37,11 +37,11 @@ class MyChatClient : IPhotonPeerListener
     public void Connect()
     {
         connected = false;
-        peer = new PhotonPeer(this, ConnectionProtocol.Tcp);
-        peer.Connect("127.0.0.1:4530", "ChatServer");
+        //peer = new PhotonPeer(this, ConnectionProtocol.Tcp);
+        //peer.Connect("127.0.0.1:4530", "ChatServer");
 
-        //peer = new PhotonPeer(this, ConnectionProtocol.WebSocket);
-        //peer.Connect("46.52.15.26:9090", "ChatServer");
+        peer = new PhotonPeer(this, ConnectionProtocol.WebSocket);
+        peer.Connect("46.52.15.26:9090", "ChatServer");
     }
 
     public void DebugReturn(DebugLevel level, string message)
