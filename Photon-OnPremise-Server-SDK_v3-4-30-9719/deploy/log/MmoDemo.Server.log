@@ -1,0 +1,15 @@
+2015-10-02 13:05:44,630 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-10-02 13:07:33,530 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-10-02 13:07:33,546 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-10-02 13:14:34,914 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-10-02 16:16:08,911 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-10-02 16:16:08,927 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-10-02 16:16:25,603 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-10-02 16:20:30,062 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-10-02 16:20:30,093 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-10-02 16:20:39,562 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-10-02 16:28:31,232 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-10-02 16:28:31,235 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo
+2015-10-02 16:28:39,485 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=MmoDemo; AppPath=D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\MmoDemo, Type=Photon.MmoDemo.Server.PhotonApplication 
+2015-10-02 16:30:38,905 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=MmoDemo
+2015-10-02 16:30:38,920 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=MmoDemo

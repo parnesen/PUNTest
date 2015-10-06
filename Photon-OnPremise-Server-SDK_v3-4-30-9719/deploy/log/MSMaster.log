@@ -1,0 +1,333 @@
+2015-10-02 11:04:59,735 [1] WARN  Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Could not initialize LoadBalancer from configuration: Invalid configuration file D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\LoadBalancer.config. Using default settings... (Could not find file 'D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\LoadBalancer.config'.)
+2015-10-02 11:04:59,735 [1] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Creating application: appId={Default}
+2015-10-02 11:04:59,751 [1] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Creating lobby: name=, type=Default
+2015-10-02 11:04:59,751 [1] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Creating new GameList
+2015-10-02 11:04:59,766 [1] INFO  Photon.LoadBalancing.Common.NodesReader [(null)] - Import nodes
+2015-10-02 11:04:59,766 [1] WARN  Photon.LoadBalancing.Common.NodesReader [(null)] - D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\Nodes.txt does not exist, CurrentNodeId = 0
+2015-10-02 11:04:59,766 [1] INFO  Photon.LoadBalancing.Common.NodesReader [(null)] - Watching D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\Nodes.txt
+2015-10-02 11:04:59,766 [1] INFO  Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Current Node (nodeId=0) is the active master (leader)
+2015-10-02 11:04:59,766 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application start: AppId=Master; AppPath=D:\Photon-OnPremise-Server-SDK_v3-4-30-9719\deploy\LoadBalancing\Master, Type=Photon.LoadBalancing.MasterServer.MasterApplication 
+2015-10-02 11:04:59,782 [1] INFO  Photon.SocketServer.Diagnostics.CounterPublisher [(null)] - CounterPublisher started on: 255.255.255.255:40001
+2015-10-02 11:04:59,797 [11] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game server
+2015-10-02 11:04:59,797 [14] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game server
+2015-10-02 11:04:59,797 [11] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - game server connection from 127.0.0.1:12450 established (id=2)
+2015-10-02 11:04:59,797 [14] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - game server connection from 127.0.0.1:12451 established (id=3)
+2015-10-02 11:04:59,844 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnOperationRequest: pid=3, op=1
+2015-10-02 11:04:59,844 [11] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnOperationRequest: pid=2, op=1
+2015-10-02 11:04:59,876 [11] WARN  Photon.LoadBalancing.Common.NodesReader [(null)] - Internal address for node 0 unknown; using loop back
+2015-10-02 11:04:59,876 [11] INFO  Photon.LoadBalancing.Common.NodesReader [(null)] - Node added: 0 = 127.0.0.1
+2015-10-02 11:04:59,876 [11] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - Received register request: Address=127.0.0.1, UdpPort=5056, TcpPort=4531, WebSocketPort=9091, State=Normal
+2015-10-02 11:04:59,876 [11] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Added server: workload=Lowest
+2015-10-02 11:04:59,891 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - Received register request: Address=127.0.0.1, UdpPort=5057, TcpPort=4532, WebSocketPort=9092, State=Normal
+2015-10-02 11:04:59,891 [18] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Added server: workload=Lowest
+2015-10-02 11:09:57,948 [27] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnDisconnect: game server connection closed (connectionId=2, serverId=d39648b4-3ac1-40e4-9b8c-5ac8e49db7c7, reason=ClientDisconnect)
+2015-10-02 11:09:57,948 [27] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Removed server: workload=Lowest
+2015-10-02 11:09:58,589 [27] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnDisconnect: game server connection closed (connectionId=3, serverId=8269693a-b59c-463c-8fdb-57b5ab8157da, reason=ClientDisconnect)
+2015-10-02 11:09:58,589 [27] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Removed server: workload=Lowest
+2015-10-02 11:09:58,605 [28] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game server
+2015-10-02 11:09:58,605 [28] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - game server connection from 127.0.0.1:12551 established (id=5)
+2015-10-02 11:09:58,605 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game server
+2015-10-02 11:09:58,605 [23] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - game server connection from 127.0.0.1:12550 established (id=4)
+2015-10-02 11:09:58,636 [23] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnOperationRequest: pid=5, op=1
+2015-10-02 11:09:58,651 [23] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - Received register request: Address=192.168.1.42, UdpPort=5057, TcpPort=4532, WebSocketPort=9092, State=Normal
+2015-10-02 11:09:58,651 [23] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Added server: workload=Lowest
+2015-10-02 11:09:58,651 [10] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnOperationRequest: pid=4, op=1
+2015-10-02 11:09:58,651 [10] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - Received register request: Address=192.168.1.42, UdpPort=5056, TcpPort=4531, WebSocketPort=9091, State=Normal
+2015-10-02 11:09:58,651 [10] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Added server: workload=Lowest
+2015-10-02 11:11:51,038 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,054 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=2, op=229
+2015-10-02 11:11:51,054 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,069 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=2, op=227
+2015-10-02 11:11:51,085 [26] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Created game: gameId=PATRICK-DESKTOP(5448)1, appId={Default}
+2015-10-02 11:11:51,100 [26] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:51,100 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=2: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,100 [29] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=2, appId={Default}
+2015-10-02 11:11:51,179 [27] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,179 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=3, op=229
+2015-10-02 11:11:51,179 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,185 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=3, op=225
+2015-10-02 11:11:51,206 [19] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,213 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:51,215 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,449 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,449 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=4, op=229
+2015-10-02 11:11:51,449 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,449 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=4, op=225
+2015-10-02 11:11:51,449 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,449 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:51,449 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=4, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,449 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=4: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,465 [21] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=4, appId={Default}
+2015-10-02 11:11:51,465 [15] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,465 [15] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:51,465 [15] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=2, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,481 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,481 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=5, op=229
+2015-10-02 11:11:51,481 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,481 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=5, op=227
+2015-10-02 11:11:51,481 [21] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Created game: gameId=PATRICK-DESKTOP(5448)2, appId={Default}
+2015-10-02 11:11:51,481 [21] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)2, userId=, joiningPeers=1
+2015-10-02 11:11:51,481 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=5: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,481 [26] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=5, appId={Default}
+2015-10-02 11:11:51,496 [23] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,496 [23] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)2, userId=
+2015-10-02 11:11:51,496 [23] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)2, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,512 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,512 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=6, op=229
+2015-10-02 11:11:51,512 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,512 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=6, op=225
+2015-10-02 11:11:51,512 [10] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,512 [10] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:51,512 [10] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=6, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,512 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=6: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,512 [25] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=6, appId={Default}
+2015-10-02 11:11:51,528 [13] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,528 [13] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:51,528 [13] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=3, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,590 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,590 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=7, op=229
+2015-10-02 11:11:51,590 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,590 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=7, op=225
+2015-10-02 11:11:51,590 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,590 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:51,590 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=7, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,590 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=7: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,590 [13] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=7, appId={Default}
+2015-10-02 11:11:51,606 [15] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,606 [15] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:51,606 [15] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=4, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,778 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,780 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=8, op=229
+2015-10-02 11:11:51,782 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,784 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=8, op=227
+2015-10-02 11:11:51,786 [13] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Created game: gameId=PATRICK-DESKTOP(5448)3, appId={Default}
+2015-10-02 11:11:51,787 [13] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)3, userId=, joiningPeers=1
+2015-10-02 11:11:51,789 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=8: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,790 [10] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=8, appId={Default}
+2015-10-02 11:11:51,825 [29] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,825 [29] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)3, userId=
+2015-10-02 11:11:51,825 [29] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)3, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,934 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,934 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=9, op=229
+2015-10-02 11:11:51,934 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,934 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=9, op=225
+2015-10-02 11:11:51,934 [29] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,934 [29] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:51,934 [29] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=9, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,934 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=9: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,934 [10] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=9, appId={Default}
+2015-10-02 11:11:51,950 [23] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:51,950 [23] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:51,950 [23] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=5, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:51,996 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:51,996 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=10, op=229
+2015-10-02 11:11:51,996 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:51,996 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=10, op=225
+2015-10-02 11:11:51,996 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,996 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:51,996 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=10, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,996 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=10: reason=ClientDisconnect, detail=
+2015-10-02 11:11:51,996 [29] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=10, appId={Default}
+2015-10-02 11:11:52,012 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:52,012 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=11, op=229
+2015-10-02 11:11:52,012 [13] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,012 [13] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:52,012 [13] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=6, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:52,012 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:52,012 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=11, op=227
+2015-10-02 11:11:52,012 [23] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Created game: gameId=PATRICK-DESKTOP(5448)4, appId={Default}
+2015-10-02 11:11:52,012 [23] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)4, userId=, joiningPeers=1
+2015-10-02 11:11:52,012 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=11: reason=ClientDisconnect, detail=
+2015-10-02 11:11:52,028 [29] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=11, appId={Default}
+2015-10-02 11:11:52,028 [25] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,028 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)4, userId=
+2015-10-02 11:11:52,028 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)4, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:52,075 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:52,075 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=12, op=229
+2015-10-02 11:11:52,075 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:52,075 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=12, op=225
+2015-10-02 11:11:52,075 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:52,075 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:52,075 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=12, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,075 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=12: reason=ClientDisconnect, detail=
+2015-10-02 11:11:52,075 [15] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=12, appId={Default}
+2015-10-02 11:11:52,090 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,090 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:52,090 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=7, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:52,158 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:52,160 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=13, op=229
+2015-10-02 11:11:52,162 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:52,163 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=13, op=225
+2015-10-02 11:11:52,165 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:52,165 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:52,165 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=13, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,165 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=13: reason=ClientDisconnect, detail=
+2015-10-02 11:11:52,165 [10] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=13, appId={Default}
+2015-10-02 11:11:52,165 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,165 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:52,165 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=8, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:52,305 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:52,305 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=14, op=229
+2015-10-02 11:11:52,305 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:52,305 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=14, op=227
+2015-10-02 11:11:52,305 [25] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Created game: gameId=PATRICK-DESKTOP(5448)5, appId={Default}
+2015-10-02 11:11:52,305 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)5, userId=, joiningPeers=1
+2015-10-02 11:11:52,305 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=14: reason=ClientDisconnect, detail=
+2015-10-02 11:11:52,305 [15] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=14, appId={Default}
+2015-10-02 11:11:52,321 [19] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,321 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)5, userId=
+2015-10-02 11:11:52,321 [19] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)5, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:52,461 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:52,461 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=15, op=229
+2015-10-02 11:11:52,461 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:52,461 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=15, op=225
+2015-10-02 11:11:52,461 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:52,461 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:52,461 [25] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=15, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,461 [29] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=15: reason=ClientDisconnect, detail=
+2015-10-02 11:11:52,477 [29] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=15, appId={Default}
+2015-10-02 11:11:52,477 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,477 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:52,477 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=9, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:52,727 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:11:52,727 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=16, op=229
+2015-10-02 11:11:52,727 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Joined lobby: , 0
+2015-10-02 11:11:52,727 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=16, op=225
+2015-10-02 11:11:52,727 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Found match. Next start node gameid=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:52,727 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - Added peer: gameId=PATRICK-DESKTOP(5448)1, userId=, joiningPeers=1
+2015-10-02 11:11:52,727 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - Found match: connectionId=16, userId=, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,727 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=16: reason=ClientDisconnect, detail=
+2015-10-02 11:11:52,727 [25] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=16, appId={Default}
+2015-10-02 11:11:52,743 [10] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:11:52,743 [10] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User joined on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:11:52,743 [10] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=10, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:11:58,600 [18] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Checked join timeouts: before=0, after=0
+2015-10-02 11:12:01,177 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=3: reason=TimeoutDisconnect, detail=
+2015-10-02 11:12:01,177 [23] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=3, appId={Default}
+2015-10-02 11:12:37,806 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,809 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,811 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,813 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,810 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,816 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=9, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,818 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,820 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=8, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,815 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,823 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,825 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,826 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,821 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,830 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=7, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,828 [18] DEBUG Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - HandleUpdateGameState
+2015-10-02 11:12:37,832 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - HandleRemoveGameState: gameId=PATRICK-DESKTOP(5448)4, joiningPlayers=0
+2015-10-02 11:12:37,835 [24] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Removed game: gameId=PATRICK-DESKTOP(5448)4, appId={Default}
+2015-10-02 11:12:37,837 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - RemoveGameState:id=PATRICK-DESKTOP(5448)4, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,839 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - HandleRemoveGameState: gameId=PATRICK-DESKTOP(5448)3, joiningPlayers=0
+2015-10-02 11:12:37,841 [24] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Removed game: gameId=PATRICK-DESKTOP(5448)3, appId={Default}
+2015-10-02 11:12:37,842 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - RemoveGameState:id=PATRICK-DESKTOP(5448)3, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,844 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,845 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=6, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,847 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - HandleRemoveGameState: gameId=PATRICK-DESKTOP(5448)5, joiningPlayers=0
+2015-10-02 11:12:37,849 [24] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Removed game: gameId=PATRICK-DESKTOP(5448)5, appId={Default}
+2015-10-02 11:12:37,850 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - RemoveGameState:id=PATRICK-DESKTOP(5448)5, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,852 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,853 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=5, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,855 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,857 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=4, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,858 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,860 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=3, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,861 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - HandleRemoveGameState: gameId=PATRICK-DESKTOP(5448)2, joiningPlayers=0
+2015-10-02 11:12:37,863 [24] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Removed game: gameId=PATRICK-DESKTOP(5448)2, appId={Default}
+2015-10-02 11:12:37,865 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - RemoveGameState:id=PATRICK-DESKTOP(5448)2, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,867 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - Changed last join random match: oldGameId=PATRICK-DESKTOP(5448)2, newGameId={null}
+2015-10-02 11:12:37,868 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,870 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=2, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,871 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameState [(null)] - User left on game server: gameId=PATRICK-DESKTOP(5448)1, userId=
+2015-10-02 11:12:37,873 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - UpdateGameState: id=PATRICK-DESKTOP(5448)1, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:12:37,874 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.AppLobby [(null)] - HandleRemoveGameState: gameId=PATRICK-DESKTOP(5448)1, joiningPlayers=0
+2015-10-02 11:12:37,876 [24] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - Removed game: gameId=PATRICK-DESKTOP(5448)1, appId={Default}
+2015-10-02 11:12:37,878 [24] DEBUG Photon.LoadBalancing.MasterServer.Lobby.GameList [(null)] - RemoveGameState:id=PATRICK-DESKTOP(5448)1, peers=1, max=0, open=True, visible=True, peersJoining=0
+2015-10-02 11:44:13,285 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:44:18,956 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:44:20,883 [9] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:44:22,284 [22] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:44:25,720 [31] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:44:28,461 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:44:30,650 [22] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:44:32,375 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:44:34,289 [11] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:44:36,949 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:45:40,234 [43] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:45:42,490 [14] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:43,456 [30] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:43,846 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:44,096 [31] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:44,294 [14] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:44,460 [13] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:44,616 [7] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:44,773 [22] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:44,991 [31] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:45,163 [42] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:45,398 [5] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:45,466 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:45,638 [43] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:45,841 [40] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:46,055 [23] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:46,310 [43] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:46,544 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:46,800 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:47,180 [40] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:47,988 [40] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:48,331 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:48,732 [40] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:49,191 [38] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:49,550 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:49,894 [27] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:50,210 [5] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:50,585 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:50,950 [7] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=19, op=1
+2015-10-02 11:45:59,395 [35] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=19: reason=ClientDisconnect, detail=
+2015-10-02 11:45:59,411 [35] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=19, appId={Default}
+2015-10-02 11:47:26,811 [38] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:27,583 [44] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:27,904 [33] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:28,258 [11] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:29,320 [36] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:33,820 [36] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:34,540 [19] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:34,931 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:35,306 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:35,835 [39] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:36,219 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:36,422 [25] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:36,578 [24] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:36,797 [18] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:37,084 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=17, op=1
+2015-10-02 11:47:39,582 [15] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:47:39,879 [14] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:47:40,238 [22] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:47:40,613 [33] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:47:41,098 [30] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:47:41,978 [42] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=18, op=1
+2015-10-02 11:48:03,883 [42] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=17: reason=ClientDisconnect, detail=
+2015-10-02 11:48:03,883 [42] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=17, appId={Default}
+2015-10-02 11:48:04,703 [28] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=18: reason=ClientDisconnect, detail=
+2015-10-02 11:48:04,703 [28] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=18, appId={Default}
+2015-10-02 11:48:37,095 [34] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:48:38,603 [11] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - Received init request from game client on leader node
+2015-10-02 11:49:26,658 [7] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=21, op=1
+2015-10-02 11:49:27,484 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=21, op=1
+2015-10-02 11:49:27,843 [21] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=21, op=1
+2015-10-02 11:49:28,281 [10] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=21, op=1
+2015-10-02 11:49:28,823 [26] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - OnOperationRequest: pid=21, op=1
+2015-10-02 11:53:39,964 [39] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnDisconnect: game server connection closed (connectionId=4, serverId=7669e4e5-f5a7-43d0-bbd3-01a85ca1bd0a, reason=ClientDisconnect)
+2015-10-02 11:53:39,964 [39] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Removed server: workload=Lowest
+2015-10-02 11:53:39,964 [19] INFO  Photon.LoadBalancing.MasterServer.GameServer.IncomingGameServerPeer [(null)] - OnDisconnect: game server connection closed (connectionId=5, serverId=19eeaa8e-5092-4234-a76e-57f6aa8127c8, reason=ClientDisconnect)
+2015-10-02 11:53:39,980 [19] DEBUG Photon.LoadBalancing.LoadBalancer.LoadBalancer`1 [(null)] - Removed server: workload=Lowest
+2015-10-02 11:53:39,980 [1] DEBUG Photon.LoadBalancing.MasterServer.MasterApplication [(null)] - OnStopRequested... going to disconnect 0 GS peers
+2015-10-02 11:53:39,980 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application is stopping: AppId=Master
+2015-10-02 11:53:39,980 [41] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=21: reason=ClientDisconnect, detail=
+2015-10-02 11:53:39,980 [41] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=21, appId={Default}
+2015-10-02 11:53:39,980 [22] DEBUG Photon.LoadBalancing.MasterServer.MasterClientPeer [(null)] - Disconnect: pid=20: reason=ClientDisconnect, detail=
+2015-10-02 11:53:39,996 [22] DEBUG Photon.LoadBalancing.MasterServer.GameApplication [(null)] - OnClientDisconnect: peerId=20, appId={Default}
+2015-10-02 11:53:39,996 [1] INFO  Photon.SocketServer.ApplicationBase [(null)] - Application stop: AppId=Master

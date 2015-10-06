@@ -1,0 +1,175 @@
+2015-10-02 11:11:51,022 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,054 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,054 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,054 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 1;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,069 [7] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 0 Games visible.
+2015-10-02 11:11:51,100 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Create game response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,100 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:51,116 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,147 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Create game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,179 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,179 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 1;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,179 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,179 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:51,179 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 0 Games visible.
+2015-10-02 11:11:51,190 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully created game.
+2015-10-02 11:11:51,190 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,191 [6] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received error response: opCode=225, err=32760, msg=No match found
+2015-10-02 11:11:51,449 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,449 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,449 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,449 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:51,449 [7] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 1 Games visible.
+2015-10-02 11:11:51,449 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,449 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:51,465 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,465 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,465 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:51,465 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,481 [4] INFO  Photon.LoadBalancing.TestClient.Program - [5448] Started game PATRICK-DESKTOP(5448)1 with 3 clients
+2015-10-02 11:11:51,481 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,481 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,481 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,481 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,481 [7] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 1 Games visible.
+2015-10-02 11:11:51,481 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Create game response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,481 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:51,481 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,481 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Create game PATRICK-DESKTOP(5448)2
+2015-10-02 11:11:51,496 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully created game.
+2015-10-02 11:11:51,496 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,512 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,512 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,512 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,512 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:51,512 [7] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 2 Games visible.
+2015-10-02 11:11:51,512 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,512 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:51,512 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,512 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,528 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:51,528 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,590 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,590 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,590 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,590 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:51,590 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 2 Games visible.
+2015-10-02 11:11:51,590 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,590 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:51,590 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,590 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,606 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:51,606 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,778 [4] INFO  Photon.LoadBalancing.TestClient.Program - [5448] Started game PATRICK-DESKTOP(5448)2 with 3 clients
+2015-10-02 11:11:51,778 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,780 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,780 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,780 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=PATRICK-DESKTOP(5448)3
+2015-10-02 11:11:51,782 [3] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 2 Games visible.
+2015-10-02 11:11:51,788 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Create game response: address=192.168.1.42:4531, gameId=PATRICK-DESKTOP(5448)3
+2015-10-02 11:11:51,788 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4531
+2015-10-02 11:11:51,800 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,800 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Create game PATRICK-DESKTOP(5448)3
+2015-10-02 11:11:51,809 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully created game.
+2015-10-02 11:11:51,809 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,934 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,934 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,934 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,934 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:51,934 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 3 Games visible.
+2015-10-02 11:11:51,934 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,934 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:51,934 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:51,934 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,950 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:51,950 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:51,996 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:51,996 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:51,996 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:51,996 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:51,996 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 3 Games visible.
+2015-10-02 11:11:51,996 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:51,996 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:52,012 [4] INFO  Photon.LoadBalancing.TestClient.Program - [5448] Started game PATRICK-DESKTOP(5448)3 with 3 clients
+2015-10-02 11:11:52,012 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:52,012 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,012 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,012 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:52,012 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:52,012 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,012 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:52,012 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=PATRICK-DESKTOP(5448)4
+2015-10-02 11:11:52,012 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 3 Games visible.
+2015-10-02 11:11:52,012 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Create game response: address=192.168.1.42:4531, gameId=PATRICK-DESKTOP(5448)4
+2015-10-02 11:11:52,012 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4531
+2015-10-02 11:11:52,028 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,028 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Create game PATRICK-DESKTOP(5448)4
+2015-10-02 11:11:52,028 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully created game.
+2015-10-02 11:11:52,028 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,075 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:52,075 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:52,075 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 0;228 -> 0;
+2015-10-02 11:11:52,075 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:52,075 [14] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 4 Games visible.
+2015-10-02 11:11:52,075 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,075 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:52,075 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,075 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,090 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:52,090 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,106 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 229: 222 -> System.Collections.Hashtable;
+2015-10-02 11:11:52,158 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:52,160 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:52,160 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 8;228 -> 2;
+2015-10-02 11:11:52,160 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:52,162 [7] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 4 Games visible.
+2015-10-02 11:11:52,165 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,165 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:52,165 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,165 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,165 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:52,165 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,305 [4] INFO  Photon.LoadBalancing.TestClient.Program - [5448] Started game PATRICK-DESKTOP(5448)4 with 3 clients
+2015-10-02 11:11:52,305 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:52,305 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:52,305 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 8;228 -> 2;
+2015-10-02 11:11:52,305 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Creating game: id=PATRICK-DESKTOP(5448)5
+2015-10-02 11:11:52,305 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 4 Games visible.
+2015-10-02 11:11:52,305 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Create game response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)5
+2015-10-02 11:11:52,305 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:52,305 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,305 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Create game PATRICK-DESKTOP(5448)5
+2015-10-02 11:11:52,321 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully created game.
+2015-10-02 11:11:52,321 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,461 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:52,461 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:52,461 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 8;228 -> 2;
+2015-10-02 11:11:52,461 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:52,461 [6] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 5 Games visible.
+2015-10-02 11:11:52,461 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,461 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:52,477 [14] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,477 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,477 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:52,477 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,727 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:11:52,727 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Successfully connected to master
+2015-10-02 11:11:52,727 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 2;229 -> 8;228 -> 2;
+2015-10-02 11:11:52,727 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Joining random game ...
+2015-10-02 11:11:52,727 [3] INFO  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: GameList event received. Currently: 5 Games visible.
+2015-10-02 11:11:52,727 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Join random response: address=192.168.1.42:4532, gameId=PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,727 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Connecting to game server at 192.168.1.42:4532
+2015-10-02 11:11:52,727 [6] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully connected to game server.
+2015-10-02 11:11:52,727 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Joining game PATRICK-DESKTOP(5448)1
+2015-10-02 11:11:52,743 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Successfully joined game.
+2015-10-02 11:11:52,743 [3] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.GameServer - GAME: Sending random events.
+2015-10-02 11:11:52,852 [4] INFO  Photon.LoadBalancing.TestClient.Program - [5448] Started game PATRICK-DESKTOP(5448)5 with 3 clients
+2015-10-02 11:11:53,184 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 229: 222 -> System.Collections.Hashtable;
+2015-10-02 11:11:56,100 [7] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Received Event 226: 227 -> 1;229 -> 14;228 -> 5;
+2015-10-02 11:53:57,234 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:53:58,252 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2015-10-02 11:53:58,252 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2015-10-02 11:53:58,408 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
+2015-10-02 11:53:59,410 [3] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connect to master failed: err=ConnectionRefused
+2015-10-02 11:53:59,410 [4] WARN  Photon.LoadBalancing.TestClient.ConnectionStates.Master - Failed to connect to master.
+2015-10-02 11:53:59,649 [4] DEBUG Photon.LoadBalancing.TestClient.ConnectionStates.Master - MASTER: Connecting to master server at 127.0.0.1:4530 ..
